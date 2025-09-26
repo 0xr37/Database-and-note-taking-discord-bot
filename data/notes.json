@@ -1,0 +1,20 @@
+{
+  "1": {
+    "userid": "1",
+    "username": "RookieCollector97",
+    "age": "N/A",
+    "profilePictureRating": "6/10",
+    "creator": "person1",
+    "createdAt": "2025-09-23 00:15:44",
+    "message": "Trying to get into cars, he was asking me about best beginner cars"
+  },
+  "2": {
+    "userid": "2",
+    "username": "CarCollector268",
+    "age": "43",
+    "profilePictureRating": "7/10",
+    "creator": "person2",
+    "createdAt": "2025-09-23 02:14:10",
+    "message": "Has a massive car collection, wanted to know what tunings he should do for his supra mk4"
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "1": {
+        "username": "RookieCollector97",
+        "id": 1,
+        "private": true,
+        "terminated": false,
+        "verified": false,
+        "assets": {}
+    },
+    "2": {
+        "username": "CarCollector268",
+        "id": 2,
+        "private": false,
+        "terminated": false,
+        "verified": true,
+        "collectibles": [
+            "BMW M4",
+            "Nissan 350Z",
+            "Ford Mustang Boss 302",
+            "Porsche 911"
+        ],
+        "assets": {
+            "1": [
+                "G82", 
+                "F82"
+            ],
+            "3": [
+                "A80"
+            ]
+        }
+    }
+}

@@ -4,6 +4,6 @@ Python application which allows for writing custom notes for users based on a da
 Inorder to use just add your discord bot token to the config.json file and add your discord id to the whitelist.json file
 
 Requirements:
-python
-discord python
+python, 
+discord python, 
 filelock

@@ -51,7 +51,7 @@ async def viewNotes(ctx, userid: str = None):
 async def viewNote(ctx, userid: str):
     s = notes.viewNote(userid)
     if s:
-        msg = s.pop(next(reversed(s)))
+        msg = s.pop(next(reversed(s))) # notes are the last item in the dict, pop it and save it, inorder to print it separately
         s = json.dumps(s, indent=4)
 
         await ctx.send(f'```json\n{s}```' + f'```\n{msg}```')
@@ -519,3 +519,4 @@ async def on_command_error(ctx, error):
         await ctx.send("https://tenor.com/view/i-love-you-i-love-you-so-much-gif-10862015092269957633")
         return
     raise error
+
